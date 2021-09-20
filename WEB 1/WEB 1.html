@@ -1,0 +1,192 @@
+<!DOCTYPE html >
+<html>
+    <head>
+         <meta charset="ulf-8">
+    </head>
+    <body bgcolor="#FFFFCC">
+        <h1>Гиперссылки</h1>
+         <ol>
+            <li>
+                   <a href="http://example.com" target="_blank"> Абсолютная гиперссылка
+                     на главную страницу сайта example.com; </a>
+            </li>
+            <li>
+                  <a href="http://example.com" target="_blank"> Абсолютная гиперссылка 
+                    на главную сайта example.com в протоколе "https"; </a>
+            </li>
+            <li>
+                <a href="ftp://ftp.redcom.ru" target="_blank">Ссылка на файл на 
+                    сервере FTP без авторизации </a>
+            </li>
+            <li>
+                <a href="ftp://user:pass123@tavalik.ru" target="_blank">Ссылка на файл на 
+                    сервере FTP с авторизацией </a>
+            </li>
+            <li>
+                <a href="http://www.example.com/about" target="_blank">Ссылка на фрагмент
+                    страницы некоторого сайта </a>
+            </li>
+            <li>
+                <a href="#dno">Ссылка на фрагмент текущей страницы</a>
+            </li>
+            <li>
+                <a href="https://www.wildberries.ru/catalog/0/search.aspx?
+                search.aspx?search=корма%20для%20дегу&amp;sort=popular" 
+                target="_blank">Ссылка с двумя параметрами в URL</a>
+            </li>
+            <li>
+                "Список ссылок с подписями title"
+            </li>
+            <ul>
+            <li>
+                <a href="index.html" title=
+                "Подробнее" target="_blank">Подробнее</a>
+            </li>
+            <li>
+                <a href="" title="Ссылки">Ссылки</a>
+            </li>
+            </ul>
+            <li>
+                <a>Ссылка без href</a>
+            </li>
+            <li>
+                <a href="" target="_blank">Ссылка с пустым href</a>
+            </li>
+            <li>
+                <a href="http://example.ru" rel="nofollow" target="_blank">
+                Ссылка по которой запрещен переход поисковикам</a>
+            </li>
+            <li>
+                <a href="http://example.ru" target="_blank">
+                Ссылка запрещенная для индексации поисковикам</a>
+            </li>
+            <li>
+                "Контекстная"
+                <a href="https://ru.wikipedia.org/wiki/Маск,_Илон" 
+                target="_blank">ссылка</a>
+                "в тексте абзаца"
+            </li>
+            <li>
+                <a href="https://mocah.org/uploads/posts/593487-5104x3304-babe.jpg">
+                <img src="https://mocah.org/uploads/posts/593487-5104x3304-babe.jpg" 
+                width="50" height="50">
+                </a>
+            </li>
+            <li>
+                <img src="https://mocah.org/uploads/posts/593487-5104x3304-babe.jpg" 
+                usemap="foto" width="300" height="200">
+            </li>
+            <li>
+                <a href="web1.html" target="_blank">
+                Относительная ссылка на страницу в текущем каталоге</a>
+            </li>
+            <li>
+                <a href="about/about.html" target="_blank">
+                Относительная ссылка на страницу в каталоге about</a>
+            </li>
+            <li>
+                <a href="../web1.html" target="_blank">
+                Относительная ссылка на страницу в каталоге уровнем выше текущего</a>
+            </li>
+            <li>
+                <a href="../../web1.html" target="_blank">
+                Относительная ссылка на страницу в каталоге двумя уровнями выше</a>
+            </li>
+            <li>
+                <a href="/web1.html" target="_blank">
+                Сокращенная ссылка на главную</a>
+            </li>
+            <li>
+                <a href="demo.html" target="_blank">
+                Cсылка на внутреннюю страницу</a>
+            </li>
+        </ol>
+    <form action="/" method="POST">
+        <font color="#333333">
+            <h1 align="center"> Заполните информацию о себе </h1>
+        </font> 
+        <font color="#333333"> 
+            <h1>
+                <label> 
+                    Имя: <input type="text"> </label>
+                </h1>
+             </font>
+        <font color="#333333"> 
+        <h1>
+            <label> E-mail: <input type="email:"> </label>
+        </h1>
+        </font>
+        <h4 align="left">
+             <label> 
+                 Дата Рождения: 
+                 <input type="date">
+             </label>
+        </h4>
+        <font color="#333333">
+        Пол:
+        <br>
+        <font color="#333333"></font>
+        <label>
+            <input type="radio" name="radio-group-1" value="Значение1">
+            женский
+        </label>
+        </font>
+        <font color="#333333">
+            <label><input type="radio" name="radio-group-1" value="Значение2">
+                мужской
+            </label>
+            <br>
+        </font>
+        <font color="#333333"> 
+        Кол-во конечностей:
+        <br>
+         <label>
+             <input type="radio" name="radio-group-1" value="Значение1">
+                 1
+            </label>
+            <label>
+                <input type="radio" name="radio-group-1" value="Значение2">
+                2
+            </label>
+            <br>
+        <label>
+            <input type="radio" name="radio-group-1" value="Значение3">
+                 3
+            </label>
+            <label>
+                <input type="radio" name="radio-group-1" value="Значение4">
+                5
+            </label>
+            <br>
+        </font>
+        <h4 align="left"> 
+            <label for="" Особые="" Способности:="Особые Способности:">
+                Особые Способности:</label> 
+            </h4>
+        <select name="Особые Способности:">
+            <option value="Не плакать от лука">Не плакать от лука</option>
+            <option value="Всегда успевать в дедлайны">Всегда успевать в дедлайны</option>
+            <option value="Искренне любить дискретку">Искренне любить дискретку</option>
+            <option value="Кодить без ошибок">Кодить без ошибок</option>
+            <option value="-Ничего-">-Ничего-</option>   
+         </select>
+        </font>
+        <h4 align="left">
+            <label> 
+                Биография :
+                <textarea></textarea>
+             </label>
+         </h4>
+         C данным контрактом ознакомлен(а):
+         <br>
+         <label>
+             <input type="checkbox" name="radio-group-1" value="Значение1">
+            </label>
+        <p>
+             <input type="submit" value="Отправить данные ">
+             <a id="dno"> </a>
+        </p>
+        </form>
+    </body>
+</html>
+
